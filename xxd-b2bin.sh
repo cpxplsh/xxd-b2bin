@@ -293,9 +293,9 @@ do
         exit 1
       fi
       # zero padding on the right
-      BITS=`echo "${BITS}0000000" | cut -c 8`
+      BITS=`echo "${BITS}0000000" | cut -c -8`
       # bits to binary
-      printf "%b" "\x`echo "ibase=2;obase=16;${BITS}" | bc`"
+      printf "%b" "\x`echo "obase=16;ibase=2;${BITS}" | bc`"
       ;;
   esac
 done >${outfile}
