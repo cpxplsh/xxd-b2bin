@@ -15,10 +15,8 @@ if [ $# -ne 2 ]; then
   echo "Usage: xxd-b2bin.sh in-xxd-b-file out-binary-file"
   exit 1
 fi
-
 infile=$1
 outfile=$2
-rm -f ${outfile}
 
 # conversion
 cat "${infile}" |
