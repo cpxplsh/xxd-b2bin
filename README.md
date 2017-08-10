@@ -31,7 +31,7 @@ $ vi file2-xxd-b.txt
                                       ^^^ (delete '011')
 ```
 ```
-$ ./xxd-b2bin file2-xxdb-b.txt file2.bin
+$ ./xxd-b2bin.sh file2-xxdb-b.txt file2.bin
 $ hexdump file2.bin
 0000000 6a 3a b6 b5 e4
 0000005
