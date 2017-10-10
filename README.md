@@ -40,4 +40,4 @@ $ xxd -b file2-xxdb-b.bin
                                                     ^^ (zero padding)
 ```
 ## License
-[MIT](https://github.com/cpxplsh/xxd-b2bin/LICENSE.txt)
+[MIT](https://github.com/cpxplsh/xxd-b2bin/blob/master/LICENSE.txt)
