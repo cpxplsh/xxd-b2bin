@@ -39,3 +39,5 @@ $ xxd -b file2-xxdb-b.bin
 00000000: 01101010 00111010 10110110 10110101 11100100           j:...
                                                     ^^ (zero padding)
 ```
+## License
+[MIT](https://github.com/cpxplsh/xxd-b2bin/LICENSE.txt)

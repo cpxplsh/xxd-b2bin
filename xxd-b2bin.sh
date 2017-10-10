@@ -2,6 +2,11 @@
 #
 # 'xxd -b' to binary
 #
+# Copyright (c) 2017 cpxplsh
+#
+# This software is released under the MIT License.
+# http://opensource.org/licenses/mit-license.php
+#
 set -u
 
 # check arguments
